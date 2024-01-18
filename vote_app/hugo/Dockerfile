@@ -5,7 +5,7 @@ RUN apt-get update
 RUN apt-get install -y wget
 
 RUN rm -rf /var/lib/apt/lists/*
-
+ 
 WORKDIR /app
 
 ADD https://github.com/gohugoio/hugo/releases/download/v0.121.2/hugo_0.121.2_linux-amd64.tar.gz /app
