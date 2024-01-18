@@ -24,7 +24,7 @@ WORKDIR /quickstart
 
 EXPOSE 1313
 
-CMD ["hugo", "server", "--bind=0.0.0.0"]
+CMD ["hugo", "server", "-D",  "--bind=0.0.0.0"]
 
 # sudo docker build -t hugo_img .
 # sudo docker run -p 1313:1313 hugo_img
