@@ -1,2 +1,1 @@
-# Groupe de france_t 1022175
-
+Transferable docker containerization. 
